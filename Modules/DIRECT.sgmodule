@@ -1,6 +1,9 @@
 #!name=DIRECT
 #!desc=基于自动更新订阅规则之外的直连规则
 
+[General]
+tun-excluded-routes = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
+
 [Rule]
 DOMAIN-SUFFIX,micu.hk,DIRECT
 DOMAIN-SUFFIX,elmo.chat,DIRECT
